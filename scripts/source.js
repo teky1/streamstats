@@ -88,7 +88,7 @@ setInterval(function(){
       wins = player_data.player.stats.Bedwars.wins_bedwars-ogWins;
       losses = player_data.player.stats.Bedwars.losses_bedwars-ogLosses;
       beds = player_data.player.stats.Bedwars.beds_broken_bedwars-ogBeds;
-      finals = player_data.splayer.stats.Bedwars.final_kills_bedwars-ogFinals;
+      finals = player_data.player.stats.Bedwars.final_kills_bedwars-ogFinals;
     });
   }
 }, 1000);
