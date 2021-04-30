@@ -19,7 +19,7 @@ generate_button.addEventListener("click", event => {
       message1.innerHTML = "<i>Valid API Key</i>";
       message2.innerHTML = "Use the following link in an OBS browser source<br><br>"+
       window.location.href+"source.html?"+key+"<br><br>"+
-      "<i>Note: Make sure the dimensions are set to X x Y</i>";
+      "<i>Note: Make sure the dimensions are set to 650 x 375</i>";
     }
   });
 
